@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/xiaomi/mido/mido-vendor.mk)
+$(call inherit-product, vendor/xiaomi/oxygen/oxygen-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Overlays
@@ -242,7 +242,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_mido
+    android.hardware.light@2.0-service.xiaomi_oxygen
 
 # Media
 PRODUCT_COPY_FILES += \

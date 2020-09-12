@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_mido.mk
+    $(LOCAL_DIR)/revengeos_oxygen.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_mido-user \
-    revengeos_mido-userdebug \
-    revengeos_mido-eng
+    revengeos_oxygen-user \
+    revengeos_oxygen-userdebug \
+    revengeos_oxygen-eng

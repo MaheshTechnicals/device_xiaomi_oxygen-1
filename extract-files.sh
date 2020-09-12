@@ -25,7 +25,7 @@ fi
 set -e
 
 # Required!
-DEVICE=mido
+DEVICE=oxygen
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks

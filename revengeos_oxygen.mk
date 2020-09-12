@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from mido device
-$(call inherit-product, device/xiaomi/mido/device.mk)
+# Inherit from oxygen device
+$(call inherit-product, device/xiaomi/oxygen/device.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -27,8 +27,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := mido
-PRODUCT_NAME := revengeos_mido
+PRODUCT_DEVICE := oxygen
+PRODUCT_NAME := revengeos_oxygen
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
